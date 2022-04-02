@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_backgrounds",
+  "info": {
+    "singularName": "home-background",
+    "pluralName": "home-backgrounds",
+    "displayName": "Home Background"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

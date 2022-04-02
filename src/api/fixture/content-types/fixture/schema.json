@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fixtures",
+  "info": {
+    "singularName": "fixture",
+    "pluralName": "fixtures",
+    "displayName": "Fixture",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "opponent": {
+      "type": "string",
+      "required": true,
+      "maxLength": 21,
+      "minLength": 3
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "time": {
+      "type": "time",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "opponent_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "fixture_type": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

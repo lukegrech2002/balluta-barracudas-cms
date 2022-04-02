@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_backgrounds",
+  "info": {
+    "singularName": "contact-background",
+    "pluralName": "contact-backgrounds",
+    "displayName": "Contact Background"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
